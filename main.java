@@ -4,10 +4,11 @@ class main{
           //BOYER MOORE
          char txt[] = "ABAAABCD".toCharArray(); 
          char pat[] = "ABC".toCharArray(); 
+         BM.search(txt, pat); 
+         
+         // Knuth Morris Pratt Algo
          String kmptxt = "ABAAABCD";
          String kmppat = "ABC";
-         
-         BM.search(txt, pat); 
          KMP.KMPSearch(kmppat, kmptxt);
     } 
 }  
