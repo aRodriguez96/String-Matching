@@ -10,5 +10,11 @@ class main{
          String kmptxt = "ABAAABCD";
          String kmppat = "ABC";
          KMP.KMPSearch(kmppat, kmptxt);
+         
+         // Rabin Karp
+         String rktxt = "SATEESH IS MY HOME DAWG";
+         String rkpat = "HOM";
+         int prime = 101;
+         RK.search(rkpat, rktxt, prime);
     } 
 }  
