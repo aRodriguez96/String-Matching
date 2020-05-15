@@ -157,8 +157,8 @@ class main{
     	System.out.println("String: "+builder+"\n");
     	
     	// The pattern to search
-    	worstPattern = "hhggi";
-    	avgPattern = "dcjqs";
+    	worstPattern = "jxwwb";
+    	avgPattern = "eqdcj";
     	bestPattern = "hhggi";
 		
 		//BOYER MOORE
@@ -283,9 +283,9 @@ class main{
     	System.out.println("String: "+builder+"\n");
     	
     	// The pattern to search
-    	worstPattern = "hhggi";
+    	worstPattern = "elfwijejwi";
     	avgPattern = "xqlboxdgeg";
-    	bestPattern = "onofrgnpf";
+    	bestPattern = "onofrgnpfh";
 		
 		//BOYER MOORE
     	System.out.println("----Boyer Moore----");
@@ -398,7 +398,7 @@ class main{
 		
 		/*
 	 	 * 
-	 	 * ~~~~~~~~ INPUT SIZE = 1000
+	 	 * ~~~~~~~~ INPUT SIZE = 10000
 	 	 * 
 	 	 */
 	     System.out.println("~~~~~~~~~~~~~~~~~INPUT SIZE 10000~~~~~~~~~~~~~~~~~");
@@ -409,9 +409,9 @@ class main{
     	System.out.println("String: "+builder+"\n");
     	
     	// The pattern to search
-    	worstPattern = "emspdhvtmcqmwnvcofg";
+    	worstPattern = "emspdhvtmcqmwnvcofgk";
     	avgPattern = "ynzvjnsjfuyeevixueav";
-    	bestPattern = "iupuelqarifmtijctjqon";
+    	bestPattern = "iupuelqarimtijctjqon";
 		
 		//BOYER MOORE
     	System.out.println("----Boyer Moore----");
