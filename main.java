@@ -13,7 +13,7 @@ class main{
     	int n = 10;
     	
     	// Output string from file
-    	String fileName = "src" + 10 + ".txt";
+    	String fileName = "src/" + 10 + ".txt";
     	String builder = readStringFromFile(fileName);
     	
     	System.out.println(builder);
@@ -40,6 +40,11 @@ class main{
 		System.out.println("Rabin Karp");
 		int prime = 101;
 		RK.search(pattern, builder, prime);
+		System.out.println();
+		
+		// Naive
+		System.out.println("Naive Approach");
+		NaiveSearch.search(builder, pattern);
 		System.out.println();
     } 
     

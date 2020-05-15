@@ -8,18 +8,21 @@ public class NaiveSearch {
   
         /* A loop to slide pat one by one */
         for (int i = 0; i <= N - M; i++) { 
-  
             int j; 
   
             /* For current index i, check for pattern  
               match */
-            for (j = 0; j < M; j++) 
-                if (txt.charAt(i + j) != pat.charAt(j)) 
+            for (j = 0; j < M; j++) {
+            	if (txt.charAt(i + j) != pat.charAt(j)) 
                     break; 
-  
-            if (j == M) // if pat[0...M-1] = txt[i, i+1, ...i+M-1] 
-                System.out.println("Pattern found at index " + i); 
+            }
+               
+            if (j == M) {
+            	// if pat[0...M-1] = txt[i, i+1, ...i+M-1] 
+            	System.out.println("Pattern found at index " + i); 
+            	System.out.println(i * j);
+            	break;
+            }  
         } 
     } 
-   
 }
