@@ -9,10 +9,11 @@ import java.util.Scanner;
 class main{ 
       
     public static void main(String []args) throws FileNotFoundException { 
+    	// Change the number for file name
     	int n = 10;
     	
     	// Output string from file
-    	String fileName = "src/10.txt";
+    	String fileName = "src" + 10 + ".txt";
     	String builder = readStringFromFile(fileName);
     	
     	System.out.println(builder);
