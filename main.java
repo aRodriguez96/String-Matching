@@ -23,6 +23,7 @@ class main{
     	
     	Scanner scanner = new Scanner(System.in);
     	pattern = scanner.nextLine();
+    	System.out.println();
 		
 		//BOYER MOORE
     	System.out.println("Boyer Moore");
