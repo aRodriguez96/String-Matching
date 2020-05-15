@@ -25,7 +25,7 @@ class main{
 	 	 */
 	     System.out.println("~~~~~~~~~~~~~~~~~INPUT SIZE 10~~~~~~~~~~~~~~~~~");
     	// Output string from file
-    	String fileName10 = "src/10.txt";
+    	String fileName10 = "10.txt";
     	builder = readStringFromFile(fileName10);
     	
     	System.out.println("String: "+builder+"\n");
@@ -43,7 +43,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -52,7 +51,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 
 		System.out.println("Best Case: ");
@@ -61,7 +59,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -73,7 +70,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -82,7 +78,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -91,7 +86,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -104,7 +98,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -113,7 +106,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -122,7 +114,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -134,7 +125,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -143,7 +133,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -152,7 +141,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -163,7 +151,7 @@ class main{
 	 	 */
 	     System.out.println("~~~~~~~~~~~~~~~~~INPUT SIZE 100~~~~~~~~~~~~~~~~~");
     	// Output string from file
-    	String fileName100 = "src/100.txt";
+    	String fileName100 = "100.txt";
     	builder = readStringFromFile(fileName100);
     	
     	System.out.println("String: "+builder+"\n");
@@ -181,7 +169,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -190,7 +177,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 
 		System.out.println("Best Case: ");
@@ -199,7 +185,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -211,7 +196,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -220,7 +204,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -229,7 +212,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -242,7 +224,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -251,7 +232,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -260,7 +240,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -272,7 +251,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -281,7 +259,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -290,7 +267,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -301,7 +277,7 @@ class main{
 	 	 */
 	     System.out.println("~~~~~~~~~~~~~~~~~INPUT SIZE 1000~~~~~~~~~~~~~~~~~");
     	// Output string from file
-    	String fileName1000 = "src/1000.txt";
+    	String fileName1000 = "1000.txt";
     	builder = readStringFromFile(fileName1000);
     	
     	System.out.println("String: "+builder+"\n");
@@ -319,7 +295,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -328,7 +303,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 
 		System.out.println("Best Case: ");
@@ -337,7 +311,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -349,7 +322,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -358,7 +330,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -367,7 +338,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -380,7 +350,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -389,7 +358,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -398,7 +366,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -410,7 +377,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -419,7 +385,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -428,7 +393,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -439,7 +403,7 @@ class main{
 	 	 */
 	     System.out.println("~~~~~~~~~~~~~~~~~INPUT SIZE 10000~~~~~~~~~~~~~~~~~");
     	// Output string from file
-    	String fileName10000 = "src/10000.txt";
+    	String fileName10000 = "10000.txt";
     	builder = readStringFromFile(fileName10000);
     	
     	System.out.println("String: "+builder+"\n");
@@ -457,7 +421,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -466,7 +429,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 
 		System.out.println("Best Case: ");
@@ -475,7 +437,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -487,7 +448,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -496,7 +456,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -505,7 +464,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -518,7 +476,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -527,7 +484,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -536,7 +492,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
 		
@@ -548,7 +503,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Avg Case: ");
@@ -557,7 +511,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		
 		System.out.println("Best Case: ");
@@ -566,7 +519,6 @@ class main{
 		stopTime = System.currentTimeMillis();
 		elapsedTime = stopTime - startTime;
 		System.out.println("Elapsed Time in ms: "+elapsedTime);
-		System.out.println("Total Comparisons: ");
 		System.out.println();
 		System.out.println();
     
