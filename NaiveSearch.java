@@ -21,11 +21,5 @@ public class NaiveSearch {
                 System.out.println("Pattern found at index " + i); 
         } 
     } 
-  
-    public static void main(String[] args) 
-    { 
-        String txt = "AABAACAADAABAAABAA"; 
-        String pat = "AABA"; 
-        search(txt, pat); 
-    } 
+   
 }
