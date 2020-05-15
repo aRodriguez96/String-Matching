@@ -47,7 +47,7 @@ public class BM {
           if (j < 0) { 
               System.out.println("Patterns occur at shift = " + s);
               s += (s+m < n)? m-badchar[txt[s+m]] : 1; 
-              System.out.println(precompTime * searchTime);
+              System.out.println("Total Comparions: " + precompTime * searchTime);
               break;
           } 
           else

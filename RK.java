@@ -51,7 +51,7 @@ public class RK {
                 // if p == t and pat[0...M-1] = txt[i, i+1, ...i+M-1] 
                 if (j == M) {
                 	System.out.println("Pattern found at index " + i);
-                	System.out.println(innerTime * outerTime);
+                	System.out.println("Total Comparisons: " + innerTime * outerTime);
                 }
                      
             } 

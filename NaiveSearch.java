@@ -26,7 +26,7 @@ public class NaiveSearch {
                 	
                 	if(j == n) {
                 		System.out.println("Pattern found at index " + i); 
-                    	System.out.println(outerTime * innerTime);
+                    	System.out.println("Total Comparisons: " + outerTime * innerTime);
                     	break;
                 	}
                 }  

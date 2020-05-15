@@ -31,7 +31,7 @@ class KMP {
             if (j == M) { 
                 System.out.println("Found pattern "
                                    + "at index " + (i - j)); 
-                System.out.println(loopTime * LPSTime);
+                System.out.println("Total Comparisons: " + loopTime * LPSTime);
                 j = lps[j - 1]; 
                 break;
             } 
