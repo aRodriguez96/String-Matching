@@ -9,6 +9,9 @@ public class RK {
     */
     static void search(String pat, String txt, int q) 
     { 
+    	int innerTime = 0;
+    	int outerTime = 0;
+    	
         int M = pat.length(); 
         int N = txt.length(); 
         int i, j; 
@@ -31,7 +34,7 @@ public class RK {
         // Slide the pattern over text one by one 
         for (i = 0; i <= N - M; i++) 
         { 
-      
+        	innerTime++;
             // Check the hash values of current window of text 
             // and pattern. If the hash values match then only 
             // check for characters on by one 
@@ -40,13 +43,17 @@ public class RK {
                 /* Check for characters one by one */
                 for (j = 0; j < M; j++) 
                 { 
+                	outerTime++;
                     if (txt.charAt(i+j) != pat.charAt(j)) 
                         break; 
                 } 
       
                 // if p == t and pat[0...M-1] = txt[i, i+1, ...i+M-1] 
-                if (j == M) 
-                    System.out.println("Pattern found at index " + i); 
+                if (j == M) {
+                	System.out.println("Pattern found at index " + i);
+                	System.out.println(innerTime * outerTime);
+                }
+                     
             } 
       
             // Calculate hash value for next window of text: Remove 

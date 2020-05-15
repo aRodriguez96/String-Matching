@@ -3,26 +3,33 @@ public class NaiveSearch {
   
     public static void search(String txt, String pat) 
     { 
-        int M = pat.length(); 
-        int N = txt.length(); 
+        int n = pat.length(); 
+        int m = txt.length(); 
+        
+        int outerTime = 0;
+        int innerTime = 0;
   
         /* A loop to slide pat one by one */
-        for (int i = 0; i <= N - M; i++) { 
-            int j; 
+        for (int i = 0; i < m - n + 1; i++) { 
+        	outerTime++;
+            int j = 0;
   
             /* For current index i, check for pattern  
               match */
-            for (j = 0; j < M; j++) {
-            	if (txt.charAt(i + j) != pat.charAt(j)) 
-                    break; 
+            while(j < n) {
+            	innerTime++;
+                	if (pat.charAt(j) != txt.charAt(i + j) ) {
+                		break;
+                	}
+                	
+                	j++;
+                	
+                	if(j == n) {
+                		System.out.println("Pattern found at index " + i); 
+                    	System.out.println(outerTime * innerTime);
+                    	break;
+                	}
+                }  
             }
-               
-            if (j == M) {
-            	// if pat[0...M-1] = txt[i, i+1, ...i+M-1] 
-            	System.out.println("Pattern found at index " + i); 
-            	System.out.println(i * j);
-            	break;
-            }  
         } 
-    } 
-}
+    }

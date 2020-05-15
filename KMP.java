@@ -1,8 +1,13 @@
 
 /* This code is not my work, the source is https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/ */
 class KMP {
+	static int loopTime = 0;
+	static int LPSTime= 0;
+	
 	static void KMPSearch(String pat, String txt) 
     { 
+		loopTime = 0;
+		LPSTime = 0;
         int M = pat.length(); 
         int N = txt.length(); 
   
@@ -17,6 +22,8 @@ class KMP {
   
         int i = 0; // index for txt[] 
         while (i < N) { 
+        	loopTime++;
+        	
             if (pat.charAt(j) == txt.charAt(i)) { 
                 j++; 
                 i++; 
@@ -24,7 +31,9 @@ class KMP {
             if (j == M) { 
                 System.out.println("Found pattern "
                                    + "at index " + (i - j)); 
+                System.out.println(loopTime * LPSTime);
                 j = lps[j - 1]; 
+                break;
             } 
   
             // mismatch after j matches 
@@ -48,6 +57,7 @@ class KMP {
   
         // the loop calculates lps[i] for i = 1 to M-1 
         while (i < M) { 
+        	LPSTime++;
             if (pat.charAt(i) == pat.charAt(len)) { 
                 len++; 
                 lps[i] = len; 
