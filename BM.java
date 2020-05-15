@@ -15,7 +15,6 @@ public class BM {
       int i; 
       for (i = 0; i < NO_OF_CHARS; i++) {
     	  badchar[i] = -1;
-    	  precompTime++;
       }
             
 
