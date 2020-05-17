@@ -283,9 +283,9 @@ class main{
     	System.out.println("String: "+builder+"\n");
     	
     	// The pattern to search
-    	worstPattern = "elfwijejwi";
+    	bestPattern = "elfwijejwi";
     	avgPattern = "xqlboxdgeg";
-    	bestPattern = "onofrgnpfh";
+    	worstPattern = "onofrgnpfh";
 		
 		//BOYER MOORE
     	System.out.println("----Boyer Moore----");
